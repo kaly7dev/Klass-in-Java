@@ -27,15 +27,12 @@ These examples provide insight into how Java’s runtime environment handles cla
 ├── pom.xml
 └── src
     ├── main
-    │   └── java
-    │       └── com
-    │           └── example
-    │               ├── ReflectionExample.java    // Demonstrates runtime metadata using reflection
-    │               └── JOLDemo.java              // Uses JOL to print memory layout of a class
-    └── test
-        └── java
-            └── (Optional test packages)
-
+         └── java
+             └── com
+                 └── example
+                     ├── ReflectionExample.java    // Demonstrates runtime metadata using reflection
+                     └── JOLDemo.java              // Uses JOL to print memory layout of a class
+    
 ```
 
 ## Prerequisites
